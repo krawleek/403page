@@ -1,0 +1,117 @@
+ @charset "utf-8";
+/* CSS Document */
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+H1 {
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.slotMachine .slot{
+  height:100px;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+}
+
+.slot1 {
+  background-image: url("../img/slot1.svg");
+}
+
+.slot2 {
+  background-image: url("../img/slot2.svg");
+}
+
+.slot3 {
+  background-image: url("../img/slot3.svg");
+}
+
+.slot4 {
+  background-image: url("../img/slot4.svg");
+}
+
+.slot5 {
+  background-image: url("../img/slot5.svg");
+}
+
+.slot6 {
+  background-image: url("../img/slot6.svg");
+}
+
+
+
+ * Casino
+ */
+#casino {
+  border-top: 40px dashed white;
+  border-bottom: 10px solid #A48E4E;
+  background-color: white;
+}
+
+#casino .content:nth-child(1) {
+  text-align: center;
+  background: url('../img/machine.svg') no-repeat 50% 80px;
+  background-position-x: 50%;
+  background-position-y: 55%;
+  min-height: 570px;
+}
+
+#casino .content > div {
+  padding-top: 165px;
+  width: 300px;
+  margin: 0 auto;
+  transform: translateX(30px);
+}
+
+.machineContainer{
+  padding: 5px 1px 5px 1px;
+  height: 135px;
+}
+
+.slotMachine{
+  width: 36.333333%;
+  background-color: black;
+  border: 5px solid #ffffff;
+  height: 100px;
+  display: inline-block;
+}
+
+#casino .btn-group {
+  margin-top: 150px;
+  transform: translateX(-25px);
+}
+
+#casino .btn-group .btn {
+  background-color: black;
+  border: #000000 solid 3px;
+ 
+  width: 100px;
+  height: 80px;
+  z-index: 1;
+}
+
+#casino .btn-group .btn:hover, .btn-group .btn:focus {
+  
+ 
+
+}
+
+
+
+.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}
